@@ -1,0 +1,18 @@
+title: "Vera"
+description: "用 AI，陪伴成長"
+url: "https://ws-vera.github.io"
+baseurl: ""
+lang: zh-TW
+
+collections:
+  tools:
+    output: true
+    permalink: /ai-tools/:name/
+
+markdown: kramdown
+
+css_version: 11
+
+exclude:
+  - _templates
+  - README.md

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="post">
+  <h1 class="page-title accent-navy">{{ page.title }}</h1>
+  <p class="post-meta">
+    {{ page.date | date: "%Y年%m月%d日" }}
+    {% if page.tags.size > 0 %}
+      ｜標籤：
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    {% endif %}
+  </p>
+  {{ content }}
+</article>
