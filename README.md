@@ -8,10 +8,10 @@
 
 ## 第一次上線的步驟
 
-1. 到 GitHub 建立一個新的 repository（專案空間），名稱必須完全是：`WS-Vera.github.io`
+1. 到 GitHub 建立一個新的 repository（專案空間），名稱必須完全是：`Vera-With-AI.github.io`
 2. 把這個資料夾裡的所有檔案上傳到那個 repository（可以直接在 GitHub 網頁上用「Upload files」拖曳上傳，不需要用指令）
 3. 到 repository 的 Settings → Pages，確認 Source 設定為 `Deploy from a branch`，Branch 選 `main`，資料夾選 `/ (root)`，儲存
-4. 等 1～2 分鐘，網站就會自動在 https://ws-vera.github.io 上線
+4. 等 1～2 分鐘，網站就會自動在 https://vera-with-ai.github.io 上線
 
 ## 之後要新增一篇「我的AI實踐」文章
 
