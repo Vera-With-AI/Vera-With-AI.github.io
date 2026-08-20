@@ -5,6 +5,8 @@ permalink: /ai-practice/
 accent: navy
 ---
 
+<img src="{{ '/assets/images/ai-practice-illustration.jpg' | relative_url }}" alt="我的AI實踐插畫" class="hero-image">
+
 真實事件、真實嘗試、踩坑紀錄與思考過程。
 
 ## 全部文章
