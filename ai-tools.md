@@ -5,6 +5,8 @@ permalink: /ai-tools/
 accent: caramel
 ---
 
+<img src="{{ '/assets/images/ai-tools-illustration.jpg' | relative_url }}" alt="AI工具插畫" class="hero-image">
+
 介紹我實際使用過的 AI 工具——不是排行榜，只是紀錄我為什麼用、實際怎麼用、遇過什麼問題。
 
 {% if site.tools.size > 0 %}
