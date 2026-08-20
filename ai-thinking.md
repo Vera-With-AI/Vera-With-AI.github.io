@@ -5,6 +5,8 @@ permalink: /ai-thinking/
 accent: teal
 ---
 
+<img src="{{ '/assets/images/ai-thinking-illustration.jpg' | relative_url }}" alt="AI思維插畫" class="hero-image">
+
 分享我在實際使用 AI 過程中，逐漸形成的一些思考觀念。
 
 ## AI 是我的思維夥伴
