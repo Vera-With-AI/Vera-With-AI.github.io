@@ -11,7 +11,7 @@ collections:
 
 markdown: kramdown
 
-css_version: 14
+css_version: 15
 
 exclude:
   - _templates

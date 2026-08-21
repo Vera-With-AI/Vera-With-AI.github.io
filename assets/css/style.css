@@ -148,7 +148,7 @@ main.container {
 }
 
 h1.page-title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   border-bottom: 3px solid var(--navy);
   padding-bottom: 8px;
   display: inline-block;
@@ -159,8 +159,8 @@ h1.page-title.accent-caramel { border-color: var(--caramel); }
 h1.page-title.accent-purple { border-color: var(--purple); }
 
 h1, h2, h3 { color: var(--text); }
-h2 { font-size: 1.25rem; }
-h3 { font-size: 1.1rem; }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 1.05rem; }
 a { color: var(--navy); }
 
 .post-meta {
