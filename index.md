@@ -31,7 +31,7 @@ description: "Vera 不是 AI 教學專家，而是一個從不懂開始，透過
   </a>
   <a class="entry-card accent-purple" href="{{ '/about/' | relative_url }}">
     <span class="entry-num">[04]</span>
-    <span class="entry-title">🙋 關於Vera</span>
+    <span class="entry-title">🙋‍♀️ 關於Vera</span>
     <span class="entry-desc">我是誰、為什麼建立這個網站</span>
   </a>
 </div>
