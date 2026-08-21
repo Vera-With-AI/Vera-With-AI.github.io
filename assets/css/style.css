@@ -24,9 +24,14 @@ body {
 .container {
   width: 92%;
   max-width: 1600px;
-  margin-left: calc(4% + 60px);
-  margin-right: calc(4% - 60px);
+  margin: 0 auto;
   padding: 0 24px;
+}
+@media (min-width: 768px) {
+  .container {
+    margin-left: calc(4% + 60px);
+    margin-right: calc(4% - 60px);
+  }
 }
 
 .site-banner {
@@ -143,6 +148,7 @@ main.container {
 }
 
 h1.page-title {
+  font-size: 1.6rem;
   border-bottom: 3px solid var(--navy);
   padding-bottom: 8px;
   display: inline-block;
@@ -153,6 +159,8 @@ h1.page-title.accent-caramel { border-color: var(--caramel); }
 h1.page-title.accent-purple { border-color: var(--purple); }
 
 h1, h2, h3 { color: var(--text); }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.1rem; }
 a { color: var(--navy); }
 
 .post-meta {
