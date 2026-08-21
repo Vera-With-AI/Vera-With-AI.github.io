@@ -31,7 +31,7 @@ body {
 .site-banner {
   background: var(--navy);
   color: #fff;
-  padding: 6px 0;
+  padding: 20px 0;
 }
 .site-banner-title {
   font-size: 1.6rem;
