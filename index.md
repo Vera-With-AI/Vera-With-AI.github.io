@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /
-title: ""
 ---
 
 <section class="intro">
