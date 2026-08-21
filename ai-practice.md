@@ -20,6 +20,7 @@ description: "真實事件、真實嘗試、踩坑紀錄與思考過程——記
 目前還沒有文章，敬請期待。
 {% endif %}
 
+{% if site.tags.size > 0 %}
 ## 依標籤瀏覽
 
 {% for tag in site.tags %}
@@ -30,3 +31,4 @@ description: "真實事件、真實嘗試、踩坑紀錄與思考過程——記
 {% endfor %}
 
 {% endfor %}
+{% endif %}
