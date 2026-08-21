@@ -50,6 +50,7 @@ body {
 }
 .subnav-inner {
   display: flex;
+  align-items: center;
   gap: 8px 24px;
   flex-wrap: wrap;
   padding: 12px 24px;
