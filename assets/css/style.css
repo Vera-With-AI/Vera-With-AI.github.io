@@ -65,7 +65,7 @@ body {
 .site-subnav a:hover { opacity: 1; text-decoration: underline; }
 
 main.container {
-  padding: 0 24px 40px;
+  padding: 24px 24px 40px;
   min-height: 55vh;
 }
 
