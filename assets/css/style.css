@@ -178,4 +178,9 @@ a { color: var(--navy); }
   font-size: 0.85rem;
   text-align: center;
 }
+.site-footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+.site-footer a:hover { opacity: 0.85; }
 .site-footer p { margin: 0; }
