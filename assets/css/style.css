@@ -27,12 +27,6 @@ body {
   margin: 0 auto;
   padding: 0 24px;
 }
-@media (min-width: 768px) {
-  .container {
-    margin-left: calc(4% + 60px);
-    margin-right: calc(4% - 60px);
-  }
-}
 
 .site-banner {
   background: var(--navy);
