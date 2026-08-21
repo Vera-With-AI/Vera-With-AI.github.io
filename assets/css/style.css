@@ -178,10 +178,17 @@ a { color: var(--navy); }
   font-size: 0.85rem;
   text-align: left;
 }
+.site-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
 .site-footer p { margin: 0; }
 .footer-fb-badge {
   display: inline-block;
-  margin-top: 12px;
+  flex-shrink: 0;
   padding: 6px 18px;
   background: #fff;
   color: var(--blue-grey);
