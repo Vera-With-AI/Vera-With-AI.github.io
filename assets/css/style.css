@@ -18,7 +18,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", -apple-system, sans-serif;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 .container {
@@ -58,7 +58,7 @@ body {
 }
 .subnav-inner {
   display: flex;
-  gap: 24px;
+  gap: 8px 24px;
   flex-wrap: wrap;
   padding: 12px 24px;
 }
@@ -110,7 +110,7 @@ main.container {
   max-width: 960px;
 }
 @media (max-width: 600px) {
-  .card-grid { grid-template-columns: 1fr; }
+  .card-grid { grid-template-columns: 1fr; gap: 16px; }
 }
 .entry-card {
   display: block;
