@@ -176,7 +176,7 @@ a { color: var(--navy); }
   color: rgba(255,255,255,0.85);
   padding: 20px 0;
   font-size: 0.85rem;
-  text-align: center;
+  text-align: left;
 }
 .site-footer p { margin: 0; }
 .footer-fb-badge {
