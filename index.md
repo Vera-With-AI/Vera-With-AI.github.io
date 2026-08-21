@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /
+description: "用AI，陪伴成長。Vera 不是 AI 教學專家，而是一個從不懂開始，透過真實問題與實際嘗試，慢慢學習如何與 AI 一起思考的人。"
 ---
 
 <section class="intro">
