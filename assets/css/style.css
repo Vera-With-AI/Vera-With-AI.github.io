@@ -185,7 +185,7 @@ a { color: var(--navy); }
   gap: 16px;
 }
 .site-footer p { margin: 0; }
-.footer-fb-badge {
+a.fb-badge {
   display: inline-block;
   flex-shrink: 0;
   padding: 6px 18px;
@@ -196,4 +196,4 @@ a { color: var(--navy); }
   border-radius: 20px;
   text-decoration: none;
 }
-.footer-fb-badge:hover { background: rgba(255,255,255,0.85); }
+a.fb-badge:hover { background: rgba(255,255,255,0.85); }
