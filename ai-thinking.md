@@ -3,6 +3,7 @@ layout: page
 title: AI思維
 permalink: /ai-thinking/
 accent: teal
+description: "分享 Vera 在實際使用 AI 過程中逐漸形成的思考觀念——AI 是思維夥伴而不是標準答案，怎麼問、怎麼判斷，比找到唯一正解更重要。"
 ---
 
 <img src="{{ '/assets/images/ai-thinking-illustration.jpg' | relative_url }}" alt="AI思維插畫" class="hero-image">

@@ -3,6 +3,7 @@ layout: page
 title: 關於 Vera
 permalink: /about/
 accent: purple
+description: "我不是 AI 專家，也沒有 IT 背景，跟很多人一樣從不懂開始摸索。這裡記錄我為什麼開始接觸 AI、為什麼決定實際嘗試，以及為什麼想把這些過程留下來。"
 ---
 
 <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="Vera" class="profile-photo">

@@ -3,6 +3,7 @@ layout: page
 title: 我的AI實踐
 permalink: /ai-practice/
 accent: navy
+description: "真實事件、真實嘗試、踩坑紀錄與思考過程——記錄 Vera 在實際使用 AI 過程中遇到的問題、怎麼調整，以及最後學到了什麼。"
 ---
 
 <img src="{{ '/assets/images/ai-practice-illustration.jpg' | relative_url }}" alt="我的AI實踐插畫" class="hero-image">
