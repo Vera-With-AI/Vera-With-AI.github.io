@@ -26,7 +26,7 @@ description: "Vera 不是 AI 教學專家，而是一個從不懂開始，透過
   </a>
   <a class="entry-card accent-caramel" href="{{ '/ai-tools/' | relative_url }}">
     <span class="entry-num">[03]</span>
-    <span class="entry-title">🛠️ AI工具</span>
+    <span class="entry-title">🛠️ AI工具筆記</span>
     <span class="entry-desc">實際用過的工具與踩坑心得</span>
   </a>
   <a class="entry-card accent-purple" href="{{ '/about/' | relative_url }}">
