@@ -1,5 +1,7 @@
 <footer class="site-footer">
-  <div class="container">
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}｜{{ site.description }}</p>
+  <div class="container footer-inner">
+    <div><p class="footer-brand">🌻 {{ site.title }}｜{{ site.description }}</p><p>記錄與 AI 一起拆解、嘗試、驗證與修正的真實過程。</p></div>
+    <nav class="footer-nav" aria-label="頁尾導覽"><a href="{{ '/ai-practice/' | relative_url }}">實踐案例</a><a href="{{ '/ai-thinking/' | relative_url }}">AI 協作思維</a><a href="{{ '/ai-tools/' | relative_url }}">工具使用筆記</a><a href="{{ '/about/' | relative_url }}">關於 Vera</a><a href="https://www.facebook.com/VeraHrAI/" target="_blank" rel="noopener">Facebook</a></nav>
   </div>
+  <div class="container footer-bottom"><p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p><p>網站內容為個人實際經驗，請依自身情境判斷是否適用。</p></div>
 </footer>

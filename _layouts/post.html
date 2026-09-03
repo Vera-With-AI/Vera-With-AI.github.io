@@ -2,13 +2,7 @@
 layout: default
 ---
 <article class="post">
-  <h1 class="page-title accent-navy">{{ page.title }}</h1>
-  <p class="post-meta">
-    {{ page.date | date: "%Y年%m月%d日" }}
-    {% if page.tags.size > 0 %}
-      ｜標籤：
-      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
-    {% endif %}
-  </p>
+  <header class="post-header"><a class="back-link" href="{{ '/ai-practice/' | relative_url }}">← 返回實踐案例</a><p class="eyebrow">{{ page.topic | default: "實踐案例" }}</p><h1>{{ page.title }}</h1>{% if page.description %}<p class="post-summary">{{ page.description }}</p>{% endif %}<div class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>{% if page.tools %}<span>使用工具：{{ page.tools | join: "、" }}</span>{% endif %}</div></header>
   {{ content }}
+  <aside class="post-end"><p>這是我在特定情境下的實際經驗，不代表唯一解法。請依自己的需求與風險判斷是否適用。</p><a class="button button-secondary" href="{{ '/ai-practice/' | relative_url }}">閱讀更多實踐案例</a></aside>
 </article>

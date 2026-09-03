@@ -3,6 +3,9 @@ layout: post
 title: "打包成Skill，真的比較省Token嗎：週報自動化的真實記錄"
 date: 2026-05-18 12:00:00 +0800
 tags: [AI工具, 工作實踐]
+topic: 工作流程與自動化
+tools: [Claude, Notion, Skill]
+description: "把固定規則包成 Skill，真的會比較省 Token 嗎？這篇從週報流程出發，比較重複說明與固定工作方式的實際差異。"
 ---
 
 ## 星期一早晨的限時戰

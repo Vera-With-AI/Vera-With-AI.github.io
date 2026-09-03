@@ -3,6 +3,9 @@ layout: post
 title: "打破自動化迷思：Claude in Chrome 與 Gmail 草稿的真實記錄"
 date: 2026-07-09 12:00:00 +0800
 tags: [AI工具, 工作實踐]
+topic: 工作流程與自動化
+tools: [Claude in Chrome, Gmail]
+description: "Claude 能不能把整理好的內容直接寄出？這篇記錄實際測試 Gmail 草稿流程後，對自動化、權限與人為確認的新理解。"
 ---
 
 ## 起點：分享會上一個我沒答出來的問題

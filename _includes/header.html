@@ -1,15 +1,13 @@
-<header class="site-banner">
-  <div class="container">
-    <p class="site-banner-title">🌻 {{ site.title }}<span class="site-banner-sub">｜{{ site.description }}</span></p>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Vera 首頁"><span class="brand-mark" aria-hidden="true">🌻</span><span><strong>{{ site.title }}</strong><small>{{ site.description }}</small></span></a>
+    <nav class="site-nav" aria-label="主要導覽">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>首頁</a>
+      <a href="{{ '/ai-practice/' | relative_url }}"{% if page.url contains '/ai-practice/' or page.layout == 'post' %} aria-current="page"{% endif %}>實踐案例</a>
+      <a href="{{ '/ai-thinking/' | relative_url }}"{% if page.url contains '/ai-thinking/' %} aria-current="page"{% endif %}>AI 協作思維</a>
+      <a href="{{ '/ai-tools/' | relative_url }}"{% if page.url contains '/ai-tools/' %} aria-current="page"{% endif %}>工具使用筆記</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about/' %} aria-current="page"{% endif %}>關於 Vera</a>
+    </nav>
+    <a class="fb-link" href="https://www.facebook.com/VeraHrAI/" target="_blank" rel="noopener">Facebook<span class="sr-only">（另開新視窗）</span></a>
   </div>
 </header>
-<nav class="site-subnav">
-  <div class="container subnav-inner">
-    <a href="{{ '/' | relative_url }}">首頁</a>
-    <a href="{{ '/ai-practice/' | relative_url }}">我的AI實踐</a>
-    <a href="{{ '/ai-thinking/' | relative_url }}">AI思維</a>
-    <a href="{{ '/ai-tools/' | relative_url }}">AI工具筆記</a>
-    <a href="{{ '/about/' | relative_url }}">關於Vera</a>
-    <a class="fb-badge" href="https://www.facebook.com/VeraHrAI/" target="_blank" rel="noopener"><svg class="fb-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#1877F2"/><path fill="#fff" d="M16.671 15.542l.532-3.47h-3.328v-2.25c0-.949.465-1.874 1.956-1.874h1.513V4.995s-1.374-.235-2.686-.235c-2.741 0-4.533 1.662-4.533 4.669v2.643H7.078v3.47h3.047v8.385a12.09 12.09 0 003.75 0v-8.385h2.796z"/></svg><span>追蹤 Facebook 粉專</span></a>
-  </div>
-</nav>
