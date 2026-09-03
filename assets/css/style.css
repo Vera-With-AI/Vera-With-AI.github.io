@@ -33,8 +33,9 @@ a:focus-visible, .button:focus-visible { outline: 3px solid var(--sunflower); ou
 .site-nav a { color: var(--text); text-decoration: none; font-size: .91rem; white-space: nowrap; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--navy); }
 .site-nav a[aria-current="page"] { font-weight: 700; box-shadow: inset 0 -2px var(--sunflower); }
-.fb-link { border: 1px solid var(--navy); border-radius: 999px; padding: 7px 15px; text-decoration: none; font-weight: 700; font-size: .82rem; white-space: nowrap; }
-.fb-link:hover { background: var(--navy); color: #fff; }
+.fb-link { display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--border); border-radius: 999px; padding: 7px 15px; color: var(--text); background: #fff; text-decoration: none; font-weight: 700; font-size: .82rem; white-space: nowrap; box-shadow: 0 2px 8px rgba(29, 50, 73, .07); }
+.fb-link:hover { color: var(--navy); border-color: #b7c5d4; box-shadow: 0 4px 12px rgba(29, 50, 73, .12); }
+.fb-icon { width: 17px; height: 17px; flex: 0 0 auto; }
 
 main.container { padding-block: 64px 88px; min-height: 60vh; }
 .page > .page-title { max-width: 780px; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.25; margin: 0 0 32px; }
