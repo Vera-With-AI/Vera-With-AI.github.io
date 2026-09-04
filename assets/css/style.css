@@ -66,11 +66,11 @@ h3 { font-size: 1.08rem; }
 .section-intro { max-width: 680px; margin-top: 0; color: var(--muted); }
 .problem-section { text-align: center; }
 .problem-grid, .featured-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 24px; text-align: left; }
-.problem-card { display: flex; flex-direction: column; min-height: 205px; padding: 22px; color: var(--text); background: var(--cream); border: 1px solid #e8e0ce; border-radius: 16px; text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
+.problem-card { display: flex; flex-direction: column; min-height: 0; padding: 18px; color: var(--text); background: var(--cream); border: 1px solid #e8e0ce; border-radius: 14px; text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .problem-card:hover, .article-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
-.problem-card h3 { margin: 16px 0; font-size: 1.18rem; }
-.problem-card .text-link { margin-top: auto; }
-.card-index { color: var(--teal); font-weight: 800; font-size: .82rem; letter-spacing: .12em; }
+.problem-card h3 { margin: 10px 0 14px; font-size: 1.08rem; line-height: 1.55; }
+.problem-card .text-link { margin-top: auto; font-size: .9rem; }
+.card-index { color: var(--teal); font-weight: 800; font-size: .76rem; letter-spacing: .1em; }
 .article-card, .case-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; box-shadow: 0 4px 18px rgba(29, 50, 73, .05); transition: transform .2s ease, box-shadow .2s ease; }
 .article-card h3, .case-card h3 { margin: 10px 0 8px; }
 .article-card h3 a, .case-card h3 a { color: var(--text); text-decoration: none; }
@@ -170,7 +170,7 @@ h3 { font-size: 1.08rem; }
   .home-hero-image { max-height: 360px; object-fit: cover; }
   .home-section { padding: 44px 0; }
   .problem-grid, .featured-grid, .case-list, .topic-grid, .mini-grid { grid-template-columns: 1fr; }
-  .problem-card { min-height: 170px; }
+  .problem-card { min-height: 0; }
   .principles-section { grid-template-columns: 1fr; gap: 28px; }
   .latest-item { grid-template-columns: 86px 1fr 18px; gap: 12px; }
   .latest-topic { grid-column: 2; grid-row: 1; }
@@ -198,7 +198,10 @@ h3 { font-size: 1.08rem; }
   .post-header h1 { font-size: 1.8rem; }
   .button-row .button { width: 100%; }
   .about-strip { grid-template-columns: 1fr; }
-  .problem-card { min-height: 0; padding: 18px; }
+  .problem-grid { gap: 10px; margin-top: 18px; }
+  .problem-card { padding: 14px; }
+  .problem-card h3 { margin: 8px 0 10px; font-size: 1rem; }
+  .problem-card .text-link { font-size: .84rem; }
   .article-card, .case-card, .tool-guidance, .next-step, .post-end { padding: 18px; }
 }
 
