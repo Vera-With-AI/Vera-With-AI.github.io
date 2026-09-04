@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "不糾結原因，先驗證結果：薪資結算Skill開發的真實記錄"
-date: 2026-09-03 12:00:00 +0800
+date: 2026-09-04 00:00:00 +0800
 tags: [AI工具, 踩坑紀錄]
 topic: 人資與資料處理
 tools: [Skill, Excel]
