@@ -4,6 +4,7 @@ title: Gemini
 permalink: /ai-tools/gemini/
 accent: caramel
 description: "Vera 使用 Gemini 的心得與筆記，實際怎麼用、遇過什麼問題。"
+published: false
 ---
 
 目前還沒有內容，敬請期待。
