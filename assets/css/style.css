@@ -101,15 +101,16 @@ h3 { font-size: 1.08rem; }
 .page-intro-image { width: 100%; max-height: 340px; object-fit: cover; border-radius: 18px; box-shadow: var(--shadow); }
 .topic-nav { display: flex; flex-wrap: wrap; gap: 6px 10px; padding: 14px; margin-bottom: 38px; background: var(--blue-wash); border-radius: 12px; }
 .topic-nav a { padding: 4px 8px; color: var(--text); text-decoration: none; font-size: .86rem; line-height: 1.5; font-weight: 700; }
-.case-section h2, .topic-overview > h2 { margin-bottom: 18px; }
+.case-section h2 { margin-bottom: 18px; }
+.topic-overview > h2 { margin-bottom: 14px; font-size: 1.45rem; }
 .case-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 .case-card .tool-line { color: var(--text); font-size: .8rem; }
-.topic-overview { padding-top: 60px; }
-.topic-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-.topic-grid > div { scroll-margin-top: 110px; padding: 22px; background: var(--cream); border-radius: 12px; }
-.topic-grid span { color: var(--sunflower); font-weight: 800; }
-.topic-grid h3 { margin: 8px 0; }
-.topic-grid p { margin-bottom: 0; color: var(--muted); }
+.topic-overview { padding-top: 44px; }
+.topic-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.topic-grid > div { scroll-margin-top: 110px; padding: 17px 18px; background: var(--cream); border-radius: 12px; }
+.topic-grid span { color: var(--sunflower); font-size: .78rem; font-weight: 800; }
+.topic-grid h3 { margin: 6px 0; font-size: 1rem; line-height: 1.45; }
+.topic-grid p { margin-bottom: 0; color: var(--muted); font-size: .9rem; line-height: 1.6; }
 .thinking-list { max-width: 900px; margin-inline: auto; }
 .thinking-list section { display: grid; grid-template-columns: 62px 1fr; gap: 20px; padding: 30px 0; border-top: 1px solid var(--border); scroll-margin-top: 110px; }
 .thinking-number { color: var(--sunflower); font-size: 1.25rem; font-weight: 800; }
@@ -203,6 +204,12 @@ h3 { font-size: 1.08rem; }
   .problem-card h3 { margin: 8px 0 10px; font-size: 1rem; }
   .problem-card .text-link { font-size: .84rem; }
   .article-card, .case-card, .tool-guidance, .next-step, .post-end { padding: 18px; }
+  .topic-overview { padding-top: 36px; }
+  .topic-overview > h2 { margin-bottom: 12px; font-size: 1.3rem; }
+  .topic-grid { gap: 10px; }
+  .topic-grid > div { padding: 14px; }
+  .topic-grid h3 { margin: 5px 0; font-size: .96rem; }
+  .topic-grid p { font-size: .86rem; line-height: 1.55; }
 }
 
 @media (prefers-reduced-motion: reduce) {
