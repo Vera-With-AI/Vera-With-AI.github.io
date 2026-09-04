@@ -4,6 +4,7 @@ meta_description: "Vera 不是 AI 教學專家，而是一個從不懂開始，�
 url: "https://vera-with-ai.github.io"
 baseurl: ""
 lang: zh-TW
+timezone: Asia/Taipei
 
 collections:
   tools:
