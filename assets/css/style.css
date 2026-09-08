@@ -100,7 +100,10 @@ h3 { font-size: 1.08rem; }
 .page-lead { max-width: 690px; margin-bottom: 0; color: var(--muted); font-size: 1.04rem; line-height: 1.7; }
 .page-intro-image { width: 100%; max-height: 340px; object-fit: cover; border-radius: 18px; box-shadow: var(--shadow); }
 .topic-nav { display: flex; flex-wrap: wrap; gap: 6px 10px; padding: 14px; margin-bottom: 38px; background: var(--blue-wash); border-radius: 12px; }
-.topic-nav a { padding: 4px 8px; color: var(--text); text-decoration: none; font-size: .86rem; line-height: 1.5; font-weight: 700; }
+.topic-nav button { padding: 7px 10px; border: 0; border-radius: 8px; color: var(--text); background: transparent; font: inherit; font-size: .86rem; line-height: 1.5; font-weight: 700; cursor: pointer; }
+.topic-nav button:hover { background: rgba(255, 255, 255, .62); }
+.topic-nav button[aria-pressed="true"] { color: #fff; background: var(--navy); }
+.topic-nav button:focus-visible { outline: 3px solid rgba(225, 165, 40, .55); outline-offset: 2px; }
 .case-section h2 { margin-bottom: 18px; }
 .topic-overview > h2 { margin-bottom: 14px; font-size: 1.45rem; }
 .case-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
@@ -182,7 +185,7 @@ h3 { font-size: 1.08rem; }
   .page-intro { gap: 22px; padding-bottom: 30px; }
   .page-intro-image { max-height: 260px; }
   .topic-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 10px; padding: 12px; margin-bottom: 32px; }
-  .topic-nav a { padding: 4px 6px; font-size: .82rem; }
+  .topic-nav button { padding: 7px 6px; font-size: .82rem; }
   .thinking-list section { grid-template-columns: 40px 1fr; gap: 10px; padding: 24px 0; }
   .footer-inner, .footer-bottom { flex-direction: column; }
   .footer-nav { justify-content: start; }
