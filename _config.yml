@@ -13,7 +13,7 @@ collections:
 
 markdown: kramdown
 
-css_version: 37
+css_version: 38
 
 exclude:
   - _templates
