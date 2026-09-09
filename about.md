@@ -37,7 +37,3 @@ description: "我不是 AI 專家，也沒有 IT 背景，跟很多人一樣從�
 ## 為什麼建立這個網站
 
 想把這些真實踩坑與思考的過程留下來，也許能讓遇到類似情況的人，少走一些冤枉路。
-
-## 聯絡信箱
-
-[vera.with.ai@gmail.com](mailto:vera.with.ai@gmail.com)
