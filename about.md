@@ -37,3 +37,10 @@ description: "我不是 AI 專家，也沒有 IT 背景，跟很多人一樣從�
 ## 為什麼建立這個網站
 
 想把這些真實踩坑與思考的過程留下來，也許能讓遇到類似情況的人，少走一些冤枉路。
+
+<section class="contact-card" aria-labelledby="contact-title">
+  <p class="eyebrow">與我聯絡</p>
+  <h2 id="contact-title">想交流 AI 實踐或網站內容嗎？</h2>
+  <p>如果你想交流網站中的內容，或分享自己的 AI 實踐經驗，歡迎透過 E-mail 與我聯絡。</p>
+  <a class="button button-secondary" href="mailto:vera.with.ai@gmail.com">vera.with.ai@gmail.com</a>
+</section>
