@@ -6,7 +6,7 @@ tags: [AI工具, 工作實踐]
 topic: 工作流程與自動化
 tools: [Claude, Notion, Skill]
 description: "把固定規則包成 Skill，真的會比較省 Token 嗎？這篇從週報流程出發，比較重複說明與固定工作方式的實際差異。"
-image: /assets/images/posts/2026-05-18-weekly-report-automation.png
+image: /assets/images/posts/2026-05-18-weekly-report-automation.webp
 image_alt: "週報自動化三個實作重點圖卡"
 ---
 

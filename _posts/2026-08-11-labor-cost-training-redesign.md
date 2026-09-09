@@ -6,7 +6,7 @@ tags: [AI工具, 踩坑紀錄, 成長歷程]
 topic: AI 專案與內容製作
 tools: [Skill, Python, Excel]
 description: "教學示範的排程與範本接連出問題後，我回到已驗證的正式流程，重新設計一套先保護資料、再教方法的人力成本講義。"
-image: /assets/images/posts/2026-08-11-training-redesign.png
+image: /assets/images/posts/2026-08-11-training-redesign.webp
 image_alt: "人力成本分析講義重新設計三個重點圖卡"
 ---
 

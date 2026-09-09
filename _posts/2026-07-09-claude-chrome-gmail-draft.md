@@ -6,7 +6,7 @@ tags: [AI工具, 工作實踐]
 topic: 工作流程與自動化
 tools: [Claude in Chrome, Gmail]
 description: "Claude 能不能把整理好的內容直接寄出？這篇記錄實際測試 Gmail 草稿流程後，對自動化、權限與人為確認的新理解。"
-image: /assets/images/posts/2026-07-09-gmail-draft-automation.png
+image: /assets/images/posts/2026-07-09-gmail-draft-automation.webp
 image_alt: "Gmail草稿自動化三個實作重點圖卡"
 ---
 
