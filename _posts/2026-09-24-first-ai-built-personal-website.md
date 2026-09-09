@@ -4,7 +4,7 @@ title: "第一次用AI架設個人網站：從構想到正式上線"
 date: 2026-09-24 09:00:00 +0800
 tags: [AI工具, 工作實踐]
 topic: AI 專案與內容製作
-tools: [ChatGPT, Claude Code, GitHub Pages]
+tools: [ChatGPT, Claude Code, Jekyll, GitHub Pages]
 description: "面對完全陌生的網站建置任務，我從定位、架構與內容規則開始，透過AI協作逐步完成網站，並在實際調整中學會判斷與驗證。"
 image: /assets/images/posts/2026-09-24-first-ai-website.png
 image_alt: "第一次用AI架站三個實作重點圖卡"
