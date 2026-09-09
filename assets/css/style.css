@@ -152,6 +152,7 @@ h3 { font-size: 1.08rem; }
 .footer-inner p { margin: 4px 0; }
 .footer-nav { display: flex; flex-wrap: wrap; justify-content: end; gap: 10px 20px; max-width: 500px; }
 .footer-nav a { color: #fff; text-decoration: none; }
+.footer-email { color: #fff; white-space: nowrap; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 24px; padding-block: 14px; border-top: 1px solid rgba(255,255,255,.14); }
 .footer-bottom p { margin: 0; }
 
