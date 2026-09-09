@@ -6,6 +6,8 @@ tags: [AI工具, 踩坑紀錄]
 topic: 工作流程與自動化
 tools: [Cowork, Python, Excel]
 description: "人力成本分析原型完成後，排程執行卻失敗。這篇保留從設定、檔案到流程重新排查的真實過程。"
+image: /assets/images/posts/2026-07-28-scheduling-failure.png
+image_alt: "排程失敗排查三個實作重點圖卡"
 ---
 
 ## 這次不只是自己使用，也要教給別人

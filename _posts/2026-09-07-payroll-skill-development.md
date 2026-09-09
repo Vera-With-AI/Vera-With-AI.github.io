@@ -6,6 +6,8 @@ tags: [AI工具, 踩坑紀錄]
 topic: 人資與資料處理
 tools: [Skill, Excel]
 description: "使用 AI 建立薪資報表整合流程後，Excel 出現內容警告。這篇記錄如何透過對照測試與結果驗證，避免把推測當成原因。"
+image: /assets/images/posts/2026-09-07-payroll-skill.png
+image_alt: "薪資結算Skill三個實作重點圖卡"
 ---
 
 ## 14人、4家公司，人數少仍有彙整工作

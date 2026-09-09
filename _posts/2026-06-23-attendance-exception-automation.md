@@ -6,6 +6,8 @@ tags: [AI工具, 工作實踐, 成長歷程]
 topic: 人資與資料處理
 tools: [Cowork, Skill, Python, Excel]
 description: "為了教同事而做的出勤異常自動化，最後並不是日常最好用的方法。這篇記錄我如何從示範需求回到真正適合自己的流程。"
+image: /assets/images/posts/2026-06-23-attendance-exception-automation.png
+image_alt: "出勤異常自動化三個實作重點圖卡"
 ---
 
 ## 因為要教別人，才選了這件事

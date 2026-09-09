@@ -6,6 +6,8 @@ tags: [AI工具, 工作實踐]
 topic: AI 專案與內容製作
 tools: [ChatGPT]
 description: "經過不同AI工具的實際使用後，我開始重新整理自己的協作方式，並逐步將內容創作、網站管理與工作流程整合到更適合自己的環境。"
+image: /assets/images/posts/2026-10-08-ai-collaboration.png
+image_alt: "AI協作方式三個重點圖卡"
 ---
 
 ## 從完成網站，到重新思考協作方式

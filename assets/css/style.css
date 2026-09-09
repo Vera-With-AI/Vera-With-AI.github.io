@@ -72,6 +72,12 @@ h3 { font-size: 1.08rem; }
 .problem-card .text-link { margin-top: auto; font-size: .9rem; }
 .card-index { color: var(--teal); font-weight: 800; font-size: .76rem; letter-spacing: .1em; }
 .article-card, .case-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; box-shadow: 0 4px 18px rgba(29, 50, 73, .05); transition: transform .2s ease, box-shadow .2s ease; }
+.case-card.has-image { padding: 0; overflow: hidden; }
+.case-card-image-link { display: block; overflow: hidden; background: var(--blue-wash); }
+.case-card-image { display: block; width: 100%; aspect-ratio: 1.91 / 1; object-fit: cover; transition: transform .25s ease; }
+.case-card:hover .case-card-image { transform: scale(1.015); }
+.case-card-body { padding: 22px; }
+.case-card:not(.has-image) .case-card-body { padding: 0; }
 .article-card h3, .case-card h3 { margin: 10px 0 8px; }
 .article-card h3 a, .case-card h3 a { color: var(--text); text-decoration: none; }
 .article-card p, .case-card p { margin: 8px 0 12px; color: var(--muted); font-size: .93rem; line-height: 1.65; }
@@ -130,6 +136,8 @@ h3 { font-size: 1.08rem; }
 .post-header h1 { margin: 0 0 16px; font-size: clamp(1.85rem, 3.6vw, 2.7rem); line-height: 1.3; }
 .post-summary { color: var(--muted); font-size: 1.02rem; line-height: 1.7; }
 .post-meta { display: flex; flex-wrap: wrap; gap: 12px 22px; color: var(--muted); font-size: .82rem; }
+.post-image-link { display: block; margin: 0 0 42px; border-radius: 16px; box-shadow: var(--shadow); overflow: hidden; }
+.post-image { display: block; width: 100%; height: auto; }
 .post > h2 { margin-top: 40px; }
 .post > h3 { margin-top: 28px; }
 .post pre { padding: 20px; overflow-x: auto; background: var(--blue-wash); border-radius: 10px; }
@@ -201,6 +209,9 @@ h3 { font-size: 1.08rem; }
   .problem-card h3 { margin: 8px 0 10px; font-size: 1rem; }
   .problem-card .text-link { font-size: .84rem; }
   .article-card, .case-card, .tool-guidance, .next-step, .post-end { padding: 18px; }
+  .case-card.has-image { padding: 0; }
+  .case-card-body { padding: 18px; }
+  .post-image-link { margin-bottom: 32px; border-radius: 12px; }
   .back-link { min-height: 44px; padding: 8px 13px; }
 }
 

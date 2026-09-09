@@ -6,6 +6,8 @@ tags: [AI工具, 工作實踐]
 topic: 人資與資料處理
 tools: [Skill, Python, Excel]
 description: "把人力成本分析做成固定流程後，我才發現 Project 說明與 Skill 不會自動同步。這篇記錄設定分散造成的盲區。"
+image: /assets/images/posts/2026-07-16-labor-cost-analysis-settings.png
+image_alt: "人力成本自動化三個實作重點圖卡"
 ---
 
 ## 成本項目一多，人工彙整容易遺漏

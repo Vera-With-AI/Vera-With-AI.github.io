@@ -6,6 +6,8 @@ tags: [AI工具, 踩坑紀錄]
 topic: AI 專案與內容製作
 tools: [Netlify, AI 模型]
 description: "原本能使用的承攬情境風險評估器突然失效。這篇記錄如何從錯誤訊息找到模型下架的原因，並重新思考工具維護。"
+image: /assets/images/posts/2026-08-27-risk-tool-maintenance.png
+image_alt: "風險評估器維護三個實作重點圖卡"
 ---
 
 ## 起點不是計畫，是一個錯誤訊息
