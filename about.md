@@ -38,9 +38,6 @@ description: "我不是 AI 專家，也沒有 IT 背景，跟很多人一樣從�
 
 想把這些真實踩坑與思考的過程留下來，也許能讓遇到類似情況的人，少走一些冤枉路。
 
-<section class="contact-card" aria-labelledby="contact-title">
-  <p class="eyebrow">聯絡資訊</p>
-  <h2 id="contact-title">網站聯絡信箱</h2>
-  <p>聯絡信箱已先行建立，未來將依網站發展與實際需求，逐步規劃使用方式。</p>
-  <a class="button button-secondary" href="mailto:vera.with.ai@gmail.com">vera.with.ai@gmail.com</a>
-</section>
+## 聯絡信箱
+
+[vera.with.ai@gmail.com](mailto:vera.with.ai@gmail.com)
