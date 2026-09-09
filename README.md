@@ -37,6 +37,14 @@
 - AI思維 → `ai-thinking.md`
 - AI工具介紹頁 → `ai-tools.md`
 - 我的AI實踐列表頁 → `ai-practice.md`
+- 聯絡頁 → `contact.md`
+- 隱私與網站說明 → `privacy.md`
+
+搜尋引擎與錯誤頁相關檔案：
+
+- 搜尋引擎檢索規則 → `robots.txt`
+- 網站地圖 → `sitemap.xml`
+- 找不到頁面 → `404.md`
 
 ## 網站視覺風格在哪裡調
 

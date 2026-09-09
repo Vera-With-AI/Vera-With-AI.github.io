@@ -5,5 +5,21 @@ layout: default
   <header class="post-header"><a class="back-link" href="{{ '/ai-practice/' | relative_url }}">← 返回實踐案例</a><p class="eyebrow">{{ page.topic | default: "實踐案例" }}</p><h1>{{ page.title }}</h1>{% if page.description %}<p class="post-summary">{{ page.description }}</p>{% endif %}<div class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>{% if page.tools %}<span>使用工具：{{ page.tools | join: "、" }}</span>{% endif %}</div></header>
   {% if page.image %}<a class="post-image-link" href="{{ page.image | relative_url }}" target="_blank" rel="noopener" aria-label="查看文章圖卡大圖"><img class="post-image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" width="1733" height="908"></a>{% endif %}
   {{ content }}
+  {% assign related_count = 0 %}
+  <aside class="related-posts" aria-labelledby="related-posts-title">
+    <p class="eyebrow">延伸閱讀</p>
+    <h2 id="related-posts-title">相同主題的實踐案例</h2>
+    <div class="related-post-list">
+      {% for post in site.posts %}
+        {% if post.url != page.url and post.topic == page.topic and related_count < 3 %}
+          <a href="{{ post.url | relative_url }}"><span>{{ post.topic }}</span><strong>{{ post.title }}</strong></a>
+          {% assign related_count = related_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% if related_count == 0 %}
+        <a href="{{ '/ai-practice/' | relative_url }}"><strong>查看所有實踐案例</strong></a>
+      {% endif %}
+    </div>
+  </aside>
   <aside class="post-end"><p>這是我在特定情境下的實際經驗，不代表唯一解法。請依自己的需求與風險判斷是否適用。</p><a class="button button-secondary" href="{{ '/ai-practice/' | relative_url }}">閱讀更多實踐案例</a></aside>
 </article>

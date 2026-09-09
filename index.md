@@ -95,3 +95,8 @@ description: "沒有技術背景，也可以開始把 AI 用進真實工作。Ve
     <a class="text-link" href="{{ '/about/' | relative_url }}">認識 Vera <span aria-hidden="true">→</span></a>
   </div>
 </section>
+
+<section class="home-section follow-strip" aria-labelledby="follow-title">
+  <div><p class="eyebrow">繼續一起探索</p><h2 id="follow-title">想繼續看 Vera 的 AI 實踐紀錄？</h2><p>追蹤 Facebook 看最新分享；如果有交流或合作想法，也可以直接聯絡我。</p></div>
+  <div class="button-row"><a class="button button-primary" href="https://www.facebook.com/VeraHrAI/" target="_blank" rel="noopener">追蹤 Facebook</a><a class="button button-secondary" href="{{ '/contact/' | relative_url }}">聯絡 Vera</a></div>
+</section>

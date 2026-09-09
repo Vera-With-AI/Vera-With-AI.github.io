@@ -8,10 +8,10 @@
   {% assign page_description = page.description | default: site.meta_description %}
   {% assign og_title = page.og_title | default: page_title %}
   {% assign social_image = page.image | default: '/assets/images/og-image.jpg' %}
-  <title>{{ page_title }}</title>
+  <title>{{ og_title }}</title>
   <meta name="description" content="{{ page_description }}">
 
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ og_title }}">
   <meta property="og:description" content="{{ page_description }}">
@@ -21,6 +21,44 @@
   <meta name="twitter:title" content="{{ og_title }}">
   <meta name="twitter:description" content="{{ page_description }}">
   <meta name="twitter:image" content="{{ social_image | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  {% if page.layout == 'post' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page_description | jsonify }},
+    "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+    "author": {"@type": "Person", "name": "Vera"},
+    "publisher": {"@type": "Person", "name": "Vera"},
+    "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+    "image": {{ social_image | absolute_url | jsonify }}
+  }
+  </script>
+  {% elsif page.url == '/' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Vera",
+        "url": {{ site.url | jsonify }},
+        "description": {{ site.meta_description | jsonify }},
+        "inLanguage": "zh-TW"
+      },
+      {
+        "@type": "Person",
+        "name": "Vera",
+        "url": {{ site.url | jsonify }},
+        "sameAs": ["https://www.facebook.com/VeraHrAI/"]
+      }
+    ]
+  }
+  </script>
+  {% endif %}
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.css_version }}">
 </head>

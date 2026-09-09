@@ -103,6 +103,10 @@ h3 { font-size: 1.08rem; }
 .about-strip { display: grid; grid-template-columns: 180px 1fr; gap: 46px; align-items: center; }
 .about-photo { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; box-shadow: var(--shadow); }
 .about-strip > div { max-width: 700px; }
+.follow-strip { display: flex; align-items: center; justify-content: space-between; gap: 36px; }
+.follow-strip > div:first-child { max-width: 700px; }
+.follow-strip p:not(.eyebrow) { margin-bottom: 0; color: var(--muted); }
+.follow-strip .button-row { flex-shrink: 0; margin-top: 0; }
 
 .page-intro { display: grid; grid-template-columns: 1.2fr .8fr; gap: 48px; align-items: center; padding-bottom: 42px; }
 .page-intro h1 { font-size: clamp(2.2rem, 4vw, 3.3rem); line-height: 1.25; margin: 0 0 14px; }
@@ -146,6 +150,17 @@ h3 { font-size: 1.08rem; }
 .post pre { padding: 20px; overflow-x: auto; background: var(--blue-wash); border-radius: 10px; }
 .post blockquote { margin-inline: 0; padding-left: 20px; color: var(--muted); border-left: 4px solid var(--sunflower); }
 .post-end { margin-top: 52px; }
+.related-posts { margin-top: 52px; padding-top: 32px; border-top: 1px solid var(--border); }
+.related-posts h2 { margin: 0 0 18px; }
+.related-post-list { display: grid; gap: 10px; }
+.related-post-list a { display: grid; gap: 3px; padding: 14px 16px; color: var(--text); background: var(--blue-wash); border-radius: 10px; text-decoration: none; }
+.related-post-list a:hover strong { color: var(--navy); }
+.related-post-list span { color: var(--teal); font-size: .78rem; font-weight: 700; }
+.contact-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-block: 28px 42px; }
+.contact-option { padding: 24px; background: var(--blue-wash); border-radius: 14px; }
+.contact-option h2 { margin-top: 0; }
+.contact-option p { color: var(--muted); }
+.contact-note { padding: 22px; background: var(--cream); border-radius: 14px; }
 
 .profile-photo { width: 170px; height: 170px; object-fit: cover; border-radius: 50%; box-shadow: var(--shadow); }
 .hero-image { display: block; width: 100%; max-width: 520px; border-radius: 16px; box-shadow: var(--shadow); }
@@ -196,6 +211,9 @@ h3 { font-size: 1.08rem; }
   .footer-nav { justify-content: start; }
   .desktop-link { display: none; }
   .mobile-link { display: inline-block; }
+  .follow-strip { align-items: flex-start; flex-direction: column; }
+  .follow-strip .button-row { margin-top: 4px; }
+  .contact-options { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
