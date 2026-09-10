@@ -13,7 +13,7 @@ collections:
 
 markdown: kramdown
 
-css_version: 50
+css_version: 51
 google_analytics_measurement_id: "G-4YBJGF1WWB"
 
 exclude:
