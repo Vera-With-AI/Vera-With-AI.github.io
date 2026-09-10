@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第一次看見自己的網站有流量：零基礎也能用 Codex 完成 Google Analytics 設定"
-date: 2026-09-10 12:00:00 +0800
+date: 2026-09-10 00:00:00 +0800
 tags: [網站經營, AI工具]
 topic: AI 專案與內容製作
 tools: [ChatGPT Codex, Google Search Console, Google Analytics, GitHub Pages]
