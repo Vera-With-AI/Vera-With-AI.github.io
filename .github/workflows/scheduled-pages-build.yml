@@ -1,9 +1,6 @@
 name: 發布預排文章
 
 on:
-  # 僅用於首次驗證；確認後會移除，日後只保留每日排程與手動觸發。
-  push:
-    branches: [main]
   schedule:
     # 每天 01:05 UTC（台灣時間 09:05）重新建置 GitHub Pages。
     - cron: "5 1 * * *"
