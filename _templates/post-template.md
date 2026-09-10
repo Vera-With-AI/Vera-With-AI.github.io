@@ -6,7 +6,7 @@ tags: [AI工具]
 topic: ［案例主題］
 tools: [［使用工具］]
 description: "［文章摘要］"
-image: /assets/images/posts/［文章圖卡檔名］.png
+image: /assets/images/posts/［文章圖卡檔名］.webp
 image_alt: "［文章圖卡替代文字］"
 ---
 
