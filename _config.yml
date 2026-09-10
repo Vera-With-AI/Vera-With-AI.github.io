@@ -14,6 +14,7 @@ collections:
 markdown: kramdown
 
 css_version: 48
+google_analytics_measurement_id: "G-4YBJGF1WWB"
 
 exclude:
   - _templates
