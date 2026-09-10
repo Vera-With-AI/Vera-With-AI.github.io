@@ -20,7 +20,7 @@ description: "想與 Vera 交流 AI 實踐、內容或合作想法，可以透�
   </div>
 </section>
 
-想追蹤最新文章與日常分享，也可以前往 [Facebook 粉專](https://www.facebook.com/VeraHrAI/){:target="_blank" rel="noopener"}。
+<p class="contact-follow-note">想追蹤最新文章與日常分享，也可以前往 <a href="https://www.facebook.com/VeraHrAI/" target="_blank" rel="noopener">Facebook 粉專</a>。</p>
 
 <div class="contact-options">
   <section class="contact-option">

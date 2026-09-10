@@ -3,18 +3,28 @@ layout: page
 title: 關於 Vera
 permalink: /about/
 accent: purple
+hide_title: true
 description: "我不是 AI 專家，也沒有 IT 背景，跟很多人一樣從不懂開始摸索。這裡記錄我為什麼開始接觸 AI、為什麼決定實際嘗試，以及為什麼想把這些過程留下來。"
 ---
 
-<img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="Vera" class="profile-photo">
+<section class="about-hero" aria-labelledby="about-title">
+  <div class="about-photo-frame">
+    <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="Vera 的個人照片" class="about-profile-photo">
+  </div>
+  <div>
+    <p class="eyebrow">從不懂 AI 開始，慢慢找到自己的方法</p>
+    <h1 id="about-title">關於 Vera</h1>
+    <h2>Vera 是誰</h2>
 
-## Vera 是誰
+    <p>我不是AI專家，也沒有IT或程式背景。跟很多人一樣，我也是從「不懂AI」開始的，一邊接觸、一邊摸索。</p>
 
-我不是AI專家，也沒有IT或程式背景。跟很多人一樣，我也是從「不懂AI」開始的，一邊接觸、一邊摸索。
+    <p>慢慢我發現，不懂不代表不能開始——很多事不必等到全部學會才有資格去做，而是在實際嘗試的過程中，遇到問題、提出問題、找方法，一步一步找到自己的方向。</p>
 
-慢慢我發現，不懂不代表不能開始——很多事不必等到全部學會才有資格去做，而是在實際嘗試的過程中，遇到問題、提出問題、找方法，一步一步找到自己的方向。
+    <p>現在的我依然在學習，也還會遇到很多不懂的事，但我開始運用AI陪我一起思考、拆解問題，從不同角度找可能的方法。我不認為AI可以代替人做決定——AI能提供資訊、整理想法、協助分析，但最後怎麼判斷、怎麼選擇，仍然在自己手上。</p>
+  </div>
+</section>
 
-現在的我依然在學習，也還會遇到很多不懂的事，但我開始運用AI陪我一起思考、拆解問題，從不同角度找可能的方法。我不認為AI可以代替人做決定——AI能提供資訊、整理想法、協助分析，但最後怎麼判斷、怎麼選擇，仍然在自己手上。
+<div class="about-story">
 
 ## 為什麼開始接觸 AI
 
@@ -37,3 +47,5 @@ description: "我不是 AI 專家，也沒有 IT 背景，跟很多人一樣從�
 ## 為什麼建立這個網站
 
 想把這些真實踩坑與思考的過程留下來，也許能讓遇到類似情況的人，少走一些冤枉路。
+
+</div>
