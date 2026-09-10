@@ -24,7 +24,7 @@ description: "我不是 AI 專家，也沒有 IT 背景，跟很多人一樣從�
   </div>
 </section>
 
-<div class="about-story">
+<div class="about-story" markdown="1">
 
 ## 為什麼開始接觸 AI
 
