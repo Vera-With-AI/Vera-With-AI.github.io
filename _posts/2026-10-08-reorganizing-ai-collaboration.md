@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "重新整理我的AI協作方式：從內容創作到網站管理"
-date: 2026-10-08 09:00:00 +0800
+date: 2026-09-24 09:00:00 +0800
 tags: [AI工具, 工作實踐]
 topic: AI 專案與內容製作
 tools: [ChatGPT]

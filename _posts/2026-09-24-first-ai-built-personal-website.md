@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第一次用AI架設個人網站：從構想到正式上線"
-date: 2026-09-24 09:00:00 +0800
+date: 2026-09-15 09:00:00 +0800
 tags: [AI工具, 工作實踐]
 topic: AI 專案與內容製作
 tools: [ChatGPT, Claude Code, Jekyll, GitHub Pages]
