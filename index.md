@@ -51,7 +51,6 @@ description: "沒有技術背景，也可以開始把 AI 用進真實工作。Ve
       {% assign post = site.posts | where: "slug", slug | first %}
       {% if post %}
       <article class="article-card featured-article-card">
-        {% if post.image %}<a class="featured-article-image" href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" width="1733" height="908"></a>{% endif %}
         <div class="featured-article-content">
           <div class="article-meta"><span>{{ post.topic }}</span><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time></div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

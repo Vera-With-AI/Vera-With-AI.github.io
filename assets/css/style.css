@@ -72,11 +72,8 @@ h3 { font-size: 1.08rem; }
 .problem-card .text-link { margin-top: auto; font-size: .9rem; }
 .card-index { color: var(--teal); font-weight: 800; font-size: .76rem; letter-spacing: .1em; }
 .article-card, .case-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; box-shadow: 0 4px 18px rgba(29, 50, 73, .05); transition: transform .2s ease, box-shadow .2s ease; }
-.featured-article-card { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
-.featured-article-image { display: block; background: var(--blue-wash); line-height: 0; overflow: hidden; }
-.featured-article-image img { display: block; width: 100%; aspect-ratio: 1733 / 908; object-fit: cover; transition: transform .25s ease; }
-.featured-article-card:hover .featured-article-image img { transform: scale(1.015); }
-.featured-article-content { display: flex; flex: 1; flex-direction: column; padding: 22px; }
+.featured-article-card { display: flex; flex-direction: column; }
+.featured-article-content { display: flex; flex: 1; flex-direction: column; }
 .featured-article-content .text-link { margin-top: auto; }
 .case-card.has-image { padding: 0; overflow: hidden; }
 .case-card-image-link { display: block; overflow: hidden; line-height: 0; background: var(--blue-wash); }
