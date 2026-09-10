@@ -41,20 +41,23 @@ description: "沒有技術背景，也可以開始把 AI 用進真實工作。Ve
 
 <section class="home-section" aria-labelledby="featured-title">
   <div class="section-heading-row">
-    <div><p class="eyebrow">真實案例，不只展示成果</p><h2 id="featured-title">從這三篇開始</h2></div>
+    <div><p class="eyebrow">第一次來，從這裡開始</p><h2 id="featured-title">先看這三篇真實案例</h2></div>
     <a class="text-link desktop-link" href="{{ '/ai-practice/' | relative_url }}">查看所有案例 <span aria-hidden="true">→</span></a>
   </div>
-  <p class="section-intro">保留問題怎麼發生、中間怎麼調整，以及最後如何判斷。</p>
+  <p class="section-intro">從具體工作問題出發，看 Vera 如何嘗試、驗證與調整；不必照順序讀，挑最接近你現在情境的一篇開始即可。</p>
   <div class="featured-grid">
     {% assign featured_slugs = "payroll-skill-development,attendance-exception-automation,labor-cost-scheduling-failure" | split: "," %}
     {% for slug in featured_slugs %}
       {% assign post = site.posts | where: "slug", slug | first %}
       {% if post %}
-      <article class="article-card">
-        <div class="article-meta"><span>{{ post.topic }}</span><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time></div>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.description }}</p>
-        <a class="text-link" href="{{ post.url | relative_url }}">閱讀案例 <span aria-hidden="true">→</span></a>
+      <article class="article-card featured-article-card">
+        {% if post.image %}<a class="featured-article-image" href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" width="1733" height="908"></a>{% endif %}
+        <div class="featured-article-content">
+          <div class="article-meta"><span>{{ post.topic }}</span><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time></div>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.description }}</p>
+          <a class="text-link" href="{{ post.url | relative_url }}">閱讀案例 <span aria-hidden="true">→</span></a>
+        </div>
       </article>
       {% endif %}
     {% endfor %}
