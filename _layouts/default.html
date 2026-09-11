@@ -10,18 +10,22 @@
   {% assign social_image = page.image | default: '/assets/images/og-image.jpg' %}
   <title>{{ og_title }}</title>
   <meta name="description" content="{{ page_description }}">
+  {% if page.sitemap == false %}<meta name="robots" content="noindex, follow">{% endif %}
 
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:locale" content="zh_TW">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ og_title }}">
   <meta property="og:description" content="{{ page_description }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:image" content="{{ social_image | absolute_url }}">
+  <meta property="og:image:alt" content="{{ page.image_alt | default: page.title | default: site.title }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ og_title }}">
   <meta name="twitter:description" content="{{ page_description }}">
   <meta name="twitter:image" content="{{ social_image | absolute_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ '/feed.xml' | absolute_url }}">
 
   {% if site.google_analytics_measurement_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_measurement_id }}"></script>
@@ -41,10 +45,13 @@
     "headline": {{ page.title | jsonify }},
     "description": {{ page_description | jsonify }},
     "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+    "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
     "author": {"@type": "Person", "name": "Vera"},
     "publisher": {"@type": "Person", "name": "Vera"},
     "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
-    "image": {{ social_image | absolute_url | jsonify }}
+    "image": {{ social_image | absolute_url | jsonify }},
+    "articleSection": {{ page.topic | default: "實踐案例" | jsonify }},
+    "keywords": {{ page.tags | join: ", " | jsonify }}
   }
   </script>
   {% elsif page.url == '/' %}
