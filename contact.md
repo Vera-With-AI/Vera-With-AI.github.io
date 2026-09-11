@@ -16,7 +16,7 @@ description: "想與 Vera 交流 AI 實踐、內容或合作想法，可以透�
     </div>
   </div>
   <div class="contact-illustration-frame">
-    <img src="{{ '/assets/images/contact-communication-illustration.png' | relative_url }}" alt="Vera 與機器人、龍貓透過訊息和信件交流的插圖" class="contact-illustration">
+    <img src="{{ '/assets/images/contact-communication-illustration.jpg' | relative_url }}" alt="Vera 與機器人、龍貓透過訊息和信件交流的插圖" class="contact-illustration">
   </div>
 </section>
 
