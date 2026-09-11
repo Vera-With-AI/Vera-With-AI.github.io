@@ -4,6 +4,7 @@ title: ChatGPT
 permalink: /ai-tools/chatgpt/
 accent: caramel
 description: "Vera 使用 ChatGPT 的心得與筆記，實際怎麼用、遇過什麼問題。"
+published: false
 ---
 
 我使用 ChatGPT，不只是為了問一個問題、拿一個答案。更多時候，我會把正在處理的情境、限制與已經試過的方法說清楚，請它陪我一起整理資訊、拆解問題，或檢查自己可能忽略的地方。
