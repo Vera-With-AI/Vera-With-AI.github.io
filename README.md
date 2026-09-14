@@ -18,9 +18,9 @@
 4. 打開檔案，把最上面的 title、date、tags 改成這篇的內容，下面開始寫真實內容
 5. 檢查文章日期、摘要、圖片、內部連結及隱私內容，存檔後提交並推送到 GitHub；確認建置成功與公開頁面內容
 
-## 之後要新增一個「AI工具」介紹
+## 之後要補充「工具使用筆記」
 
-目前工具筆記是根目錄的 `ai-tools-chatgpt.md`、`ai-tools-claude.md`、`ai-tools-gemini.md`，三頁都設定 `published: false`。新增時可複製 `_templates/tool-template.md` 到根目錄，命名為 `ai-tools-工具名稱.md`，填入實際經驗並設定網址名稱；公開前由 Vera 確認內容，再將 `published` 改為 `true` 並檢查公開頁面。
+目前保留公開的 `ai-tools.md` 總覽頁，工具經驗主要記錄在相關實踐文章中；不規劃 ChatGPT、Claude、Gemini 的獨立介紹頁。若有新的實際經驗，優先更新相關文章或總覽頁。
 
 ## 之後要調整首頁／關於Vera等文字
 
