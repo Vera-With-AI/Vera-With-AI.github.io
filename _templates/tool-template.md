@@ -1,7 +1,10 @@
 ---
-layout: tool
+layout: page
 title: "［工具名稱］"
-last_reviewed: 2026-01-01
+permalink: /ai-tools/［工具網址名稱］/
+accent: caramel
+description: "［簡短說明 Vera 如何使用這個工具，以及這篇筆記能幫讀者了解什麼］"
+published: false
 ---
 
 ## 工具是什麼
@@ -24,3 +27,5 @@ last_reviewed: 2026-01-01
 
 ## 相關實踐文章
 - ［連結到「我的AI實踐」裡相關的文章］
+
+[← 回到工具使用筆記]({{ '/ai-tools/' | relative_url }})
