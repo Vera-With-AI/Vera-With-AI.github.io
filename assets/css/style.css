@@ -221,6 +221,7 @@ h3 { font-size: 1.08rem; }
   .container { width: min(100% - 32px, 1180px); }
   main.container { padding-block: 30px 52px; }
   .site-brand small { display: none; }
+  .fb-link > span:not(.sr-only) { display: none; }
   .site-nav { gap: 18px; }
   .site-nav a { font-size: .85rem; }
   .home-hero, .page-intro { grid-template-columns: 1fr; }
@@ -254,7 +255,6 @@ h3 { font-size: 1.08rem; }
 
 @media (max-width: 480px) {
   .fb-link { padding: 5px 10px; font-size: .75rem; }
-  .fb-link > span:not(.sr-only) { display: none; }
   .site-nav { gap: 12px; }
   .site-nav a { font-size: .78rem; }
   .home-hero h1 { font-size: 1.95rem; }
