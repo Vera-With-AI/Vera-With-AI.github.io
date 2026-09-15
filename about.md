@@ -9,7 +9,7 @@ description: "我不是 AI 專家，也沒有 IT 背景，跟很多人一樣從�
 
 <section class="about-hero" aria-labelledby="about-title">
   <div class="about-photo-frame">
-    <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="Vera 的個人照片" class="about-profile-photo">
+    <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="Vera 的個人照片" class="about-profile-photo" width="180" height="180">
   </div>
   <div class="about-hero-copy">
     <p class="eyebrow">從不懂 AI 開始，慢慢找到自己的方法</p>

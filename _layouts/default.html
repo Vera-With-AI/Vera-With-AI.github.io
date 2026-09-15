@@ -80,8 +80,9 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.css_version }}">
 </head>
 <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  <a class="skip-link" href="#main-content">跳到主要內容</a>
   {% include header.html %}
-  <main class="container">
+  <main id="main-content" class="container" tabindex="-1">
     {{ content }}
   </main>
   {% include footer.html %}

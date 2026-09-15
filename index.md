@@ -17,7 +17,7 @@ description: "沒有技術背景，也可以開始把 AI 用進真實工作。Ve
       <a class="button button-secondary" href="{{ '/ai-thinking/' | relative_url }}">了解我的 AI 協作方式</a>
     </div>
   </div>
-  <img src="{{ '/assets/images/homepage-illustration.jpg' | relative_url }}" alt="Vera 用 AI 陪伴自己思考與成長的插畫" class="home-hero-image">
+  <img src="{{ '/assets/images/homepage-illustration.jpg' | relative_url }}" alt="Vera 用 AI 陪伴自己思考與成長的插畫" class="home-hero-image" width="480" height="268" fetchpriority="high">
 </section>
 
 <section class="home-section problem-section" aria-labelledby="problems-title">
@@ -91,7 +91,7 @@ description: "沒有技術背景，也可以開始把 AI 用進真實工作。Ve
 </section>
 
 <section class="home-section about-strip" aria-labelledby="about-title">
-  <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="Vera" class="about-photo">
+  <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="Vera" class="about-photo" width="180" height="180" loading="lazy">
   <div><p class="eyebrow">關於 Vera</p><h2 id="about-title">我也曾經因為不懂，不知道該從哪裡開始。</h2>
     <p>我沒有 IT 或程式背景。真正帶來改變的，不是等到全部學會，而是先動手做，在過程中遇到問題、提出問題，再一步一步找到方法。</p>
     <a class="text-link" href="{{ '/about/' | relative_url }}">認識 Vera <span aria-hidden="true">→</span></a>

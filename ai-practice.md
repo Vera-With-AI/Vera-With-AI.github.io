@@ -7,7 +7,7 @@ description: "Vera 將 AI 用進人資、資料整理與日常工作流程的真
 ---
 <header class="page-intro">
   <div><p class="eyebrow">真實事件、真實嘗試</p><h1>實踐案例</h1><p class="page-lead">這裡記錄我在工作與學習中，實際運用 AI 解決問題的過程。不只寫最後完成了什麼，也保留中間的判斷、調整與踩坑。</p></div>
-  <img src="{{ '/assets/images/ai-practice-illustration.jpg' | relative_url }}" alt="Vera 的 AI 實踐案例插畫" class="page-intro-image">
+  <img src="{{ '/assets/images/ai-practice-illustration.jpg' | relative_url }}" alt="Vera 的 AI 實踐案例插畫" class="page-intro-image" width="480" height="268">
 </header>
 <nav class="topic-nav" aria-label="篩選案例主題">
   <button type="button" data-topic-filter="所有案例" aria-pressed="true">所有案例</button>
@@ -29,17 +29,28 @@ description: "Vera 將 AI 用進人資、資料整理與日常工作流程的真
     const cards = document.querySelectorAll('[data-case-topics]');
     const title = document.getElementById('case-list-title');
 
+    const selectTopic = (selectedTopic) => {
+      const selectedFilter = [...filters].find((item) => item.dataset.topicFilter === selectedTopic);
+      if (!selectedFilter) return false;
+
+      filters.forEach((item) => item.setAttribute('aria-pressed', String(item === selectedFilter)));
+      cards.forEach((card) => {
+        const topics = card.dataset.caseTopics.split('|');
+        card.hidden = selectedTopic !== '所有案例' && !topics.includes(selectedTopic);
+      });
+      title.textContent = selectedTopic;
+      return true;
+    };
+
     filters.forEach((filter) => {
       filter.addEventListener('click', () => {
         const selectedTopic = filter.dataset.topicFilter;
-
-        filters.forEach((item) => item.setAttribute('aria-pressed', String(item === filter)));
-        cards.forEach((card) => {
-          const topics = card.dataset.caseTopics.split('|');
-          card.hidden = selectedTopic !== '所有案例' && !topics.includes(selectedTopic);
-        });
-        title.textContent = selectedTopic;
+        selectTopic(selectedTopic);
+        history.replaceState(null, '', `#${encodeURIComponent(selectedTopic)}`);
       });
     });
+
+    const initialTopic = decodeURIComponent(location.hash.slice(1));
+    if (initialTopic) selectTopic(initialTopic);
   })();
 </script>
