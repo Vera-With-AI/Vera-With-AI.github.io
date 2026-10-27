@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="{{ site.lang | default: 'zh-Hant' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,6 +26,9 @@
   <meta name="twitter:image" content="{{ social_image | absolute_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ '/feed.xml' | absolute_url }}">
+  {% if page.url == '/' %}
+  <link rel="preload" as="image" href="{{ '/assets/images/homepage-illustration.jpg' | relative_url }}" fetchpriority="high">
+  {% endif %}
 
   {% if site.google_analytics_measurement_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_measurement_id }}"></script>
@@ -64,7 +67,7 @@
         "name": "Vera",
         "url": {{ site.url | jsonify }},
         "description": {{ site.meta_description | jsonify }},
-        "inLanguage": "zh-TW"
+        "inLanguage": {{ site.lang | default: 'zh-Hant' | jsonify }}
       },
       {
         "@type": "Person",

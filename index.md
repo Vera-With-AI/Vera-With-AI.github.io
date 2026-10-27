@@ -2,7 +2,7 @@
 layout: page
 permalink: /
 body_class: home
-og_title: "Vera｜用 AI，陪伴成長"
+og_title: "AI 實踐筆記｜把 AI 用進真實工作｜Vera"
 description: "沒有技術背景，也可以開始把 AI 用進真實工作。Vera 記錄與 AI 一起拆解問題、嘗試、驗證與修正的真實過程。"
 ---
 
