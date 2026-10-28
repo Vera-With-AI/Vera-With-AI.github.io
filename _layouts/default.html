@@ -27,16 +27,23 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ '/feed.xml' | absolute_url }}">
   {% if page.url == '/' %}
-  <link rel="preload" as="image" href="{{ '/assets/images/homepage-illustration.jpg' | relative_url }}" fetchpriority="high">
+  <link rel="preload" as="image" href="{{ '/assets/images/homepage-illustration.avif' | relative_url }}" type="image/avif" fetchpriority="high">
   {% endif %}
 
   {% if site.google_analytics_measurement_id %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_measurement_id }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics_measurement_id }}');
+    window.addEventListener('load', function () {
+      window.setTimeout(function () {
+        var script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_measurement_id }}';
+        script.async = true;
+        document.head.appendChild(script);
+      }, 1200);
+    }, { once: true });
   </script>
   {% endif %}
 

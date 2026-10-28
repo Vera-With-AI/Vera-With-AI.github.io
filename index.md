@@ -17,7 +17,10 @@ description: "沒有技術背景，也可以開始把 AI 用進真實工作。Ve
       <a class="button button-secondary" href="{{ '/ai-thinking/' | relative_url }}">了解我的 AI 協作方式</a>
     </div>
   </div>
-  <img src="{{ '/assets/images/homepage-illustration.jpg' | relative_url }}" alt="Vera 用 AI 陪伴自己思考與成長的插畫" class="home-hero-image" width="480" height="268" fetchpriority="high">
+  <picture>
+    <source srcset="{{ '/assets/images/homepage-illustration.avif' | relative_url }}" type="image/avif">
+    <img src="{{ '/assets/images/homepage-illustration.jpg' | relative_url }}" alt="Vera 用 AI 陪伴自己思考與成長的插畫" class="home-hero-image" width="480" height="268" fetchpriority="high">
+  </picture>
 </section>
 
 <section class="home-section problem-section" aria-labelledby="problems-title">
